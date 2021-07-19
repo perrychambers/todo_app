@@ -41,11 +41,11 @@ const TodoList = () => {
     }
 
     return (
-        <div>
-            <h1>What's the plan for today?</h1>
+        <>
+            <h1>Track your tasks.</h1>
             <TodoForm onSubmit={addTodo}/>
             <Todo todos={todos} editTodo={editTodo} completeTodos={completeTodo} deleteTodo={deleteTodo}/>
-        </div>
+        </>
     )
 }
 

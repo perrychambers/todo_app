@@ -3,7 +3,7 @@ import TodoList from './components/TodoList';
 
 function App() {
   return (
-    <div className="TaskContainer">
+    <div className="todo-app">
       <TodoList buttonTxt={'Add todo'}/>
     </div>
   );
